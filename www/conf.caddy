@@ -14,3 +14,9 @@ rewrite /whisky/terms     /whisky/terms.html
 
 redir /changesets   /changeset/schema 301
 redir /changesets/* /changeset/schema 301
+redir /vann/changes /vann/#changes 303
+redir /vann/example /vann/#example 303
+redir /vann/preferredNamespacePrefix /vann/#preferredNamespacePrefix 303
+redir /vann/preferredNamespaceUri /vann/#preferredNamespaceUri 303
+redir /vann/termGroup /vann/#termGroup 303
+redir /vann/usageNote /vann/#usageNote 303
